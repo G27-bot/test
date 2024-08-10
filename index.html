@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 25th Birthday, Samara!</title>
+    <style>
+        body {
+            font-family: 'Garamond', sans-serif;
+            background: linear-gradient(to right, #ffafbd, #ffc3a0);
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #ff6f61;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+            color: #ff6f61;
+        }
+        .message {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff847c;
+        }
+        .gift-image {
+            display: none;
+            width: 80%;
+            max-width: 500px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Media queries for mobile */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .message {
+                font-size: 1.2em;
+            }
+        }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy 25th Birthday, Samara!</h1>
+        <h2>You are often described as a ray of Sunshine, which is an apt metaphore for you boundless kindness and big heart, however I would say you are far more than just one ray. In my opionion you are nothing short of the sun itself.</h2>
+        <p class="message">I hope this next quarter of your life is your most fun and abundant one yet!</p>
+        
+<div class="balloons">
+    <img src="C:\Users\gbsho\OneDrive\Pictures\babysamara.jpg" alt="Samara's Birthday Image" width="1000" height="auto">
+</div>	
+        <!-- Button to show the gift -->
+        <button class="button" onclick="showGift()">Click here to for a suprise!</button>
+        
+        <!-- Hidden image -->
+        <img src="C:\Users\gbsho\OneDrive\Pictures\AusBalletOscar.jpeg" alt="Your Birthday Gift" class="gift-image" id="giftImage">
+
+        <div class="footer">
+		<p class="message">Samara, </p> 
+		<p class="message">I’m so so heartbroken and sad and blue and devastated, I can’t be there to shower you with all the love and big birthday drama you deserve, but I hope you are spending today celebrating, living your best life in our favourite place ever. (With a salmon bagel from Pom Pom ofc) Your positivity and good faith in the world is such a precious gift to you and to everyone around you. And I can only hope that one day it’ll rub off on me. You are so kind and genuinely the most selfless person I’ve ever known, I’m so grateful that I got to grow up next to you and look up to you everyday. I LOVE that we’re sisters and I LOVE it even more that we’re FRIENDS. Not many are as lucky us to find a friend in their siblings and I couldn’t be more thankful that that could never be us 😌💅 You have so so so so many people that love and adore you and I really hope you can feel all of it. I love you so much and CANT WAIT FOR YOU TO COME HOME so we can live together again!!!! I know this next chapter is going to be strange, moving back to Sydney and trying to figure out where to go and what to do next but HOW EXCITING that you get to start all over again and decide where you want to be and where you want life to take you. I can’t wait to see what you do. I hope this next year, and next quarter of your life brings you as much joy and love as you give to everyone around you.</p>
+            
+	<p>With love, from your adoring little sister ❤️</p>
+        </div>
+    </div>
+
+    <script>
+        function showGift() {
+            var giftImage = document.getElementById('giftImage');
+            giftImage.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
